@@ -16,7 +16,7 @@
 DEFAULT_BACK_DIR="/mnt/pve/backup_NFS/private"
 
 # number of backups to keep before overriding the oldest one
-MAX_BACKUPS=5
+MAX_BACKUPS=7
 
 # Set to 'true' to backup /opt/* folder
 BACKUP_OPT_FOLDER=false
