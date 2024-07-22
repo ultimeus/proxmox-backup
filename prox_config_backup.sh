@@ -13,7 +13,7 @@
 #   example: export BACK_DIR="/mnt/pve/media/backup"
 #   or
 #   example: BACK_DIR="." ./prox_config_backup.sh
-DEFAULT_BACK_DIR="/mnt/pve/media/backup"
+DEFAULT_BACK_DIR="/mnt/user/backup_pbs/proxmox_host"
 
 # number of backups to keep before overriding the oldest one
 MAX_BACKUPS=5
@@ -29,7 +29,7 @@ HEALTHCHECKS_URL=https://hc-ping.com/your_uuid_here
 
 # Email notification settings
 EMAIL_NOTIFICATION=1
-EMAIL_TO="your-email@example.com"
+EMAIL_TO="root@pam"
 EMAIL_SUBJECT_SUCCESS="Proxmox Backup Success"
 EMAIL_SUBJECT_FAILURE="Proxmox Backup Failure"
 
